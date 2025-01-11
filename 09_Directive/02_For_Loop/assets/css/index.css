@@ -1,0 +1,27 @@
+.box-2 {
+  width: 200px;
+  background: rgb(5, 51, 49);
+  margin: 2;
+  padding: 10px;
+}
+
+.box-3 {
+  width: 300px;
+  background: rgb(204, 243, 103);
+  margin: 3;
+  padding: 15px;
+}
+
+.box-4 {
+  width: 400px;
+  background: rgb(188, 253, 133);
+  margin: 4;
+  padding: 20px;
+}
+
+.box-5 {
+  width: 500px;
+  background: rgb(178, 24, 131);
+  margin: 5;
+  padding: 25px;
+}/*# sourceMappingURL=index.css.map */

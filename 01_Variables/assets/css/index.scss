@@ -1,0 +1,49 @@
+$mainColor: #c8deff;
+$bgImage: no-repeat center / cover;
+
+body {
+    background: linear-gradient(90deg, #a5aae9cc, #8c9af6);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: $mainColor;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 280px;
+    margin: 4rem;
+    position: relative;
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 3px solid white;
+    position: absolute;
+    right: -30px;
+    bottom: 110px;
+}
+
+.img-one {
+    background: url(../images/imgone.avif) $bgImage;
+}
+
+.img-two {
+    background: url(../images/imgtwo.avif) $bgImage;
+}
+
+.img-three {
+    background: url(../images/imgthree.avif) $bgImage;
+}
+
+.img-four {
+    background: url(../images/imgfour.avif) $bgImage;
+}

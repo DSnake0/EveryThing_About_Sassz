@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(90deg, rgba(165, 170, 233, 0.8), #8c9af6);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #c8deff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 280px;
+  margin: 4rem;
+  position: relative;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 3px solid white;
+  position: absolute;
+  right: -30px;
+  bottom: 110px;
+}
+
+.img-one {
+  background: url(../images/imgone.avif) no-repeat center/cover;
+}
+
+.img-two {
+  background: url(../images/imgtwo.avif) no-repeat center/cover;
+}
+
+.img-three {
+  background: url(../images/imgthree.avif) no-repeat center/cover;
+}
+
+.img-four {
+  background: url(../images/imgfour.avif) no-repeat center/cover;
+}/*# sourceMappingURL=index.css.map */

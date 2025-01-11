@@ -1,0 +1,23 @@
+.selector {
+    // INFO: Equality Operators
+    padding: 10px == 10px;
+    padding: 10px == 10rem;
+    padding: 10px == 20px;
+    font-family: "arial" == arial;
+    padding: (6px 20px 10px) == (6px 20px 10px);
+
+    // INFO: Relational Operators
+    padding: 10px > 30px;
+    padding: 10px < 30px;
+    padding: 10px >= 30px;
+    padding: 10px <= 30px;
+
+    // INFO: Boolean Operators
+    padding: arial == "arial" and 10px == 10px;
+    padding: arial == "arial" and 10px == 20px;
+    padding: arial == "roboto" 10px == 20px;
+    padding: arial == "arial" or 10px == 20px;
+    padding: roboto == "arial" or 10px == 10rem;
+    padding: not 10px == 10px;
+    padding: not 10px != 10rem;
+}

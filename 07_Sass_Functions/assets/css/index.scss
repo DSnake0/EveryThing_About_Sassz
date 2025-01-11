@@ -1,0 +1,88 @@
+.selector {
+    // INFO: Math Functions
+    padding: max(10px, 50px, 20px, 60px, 2px);
+    padding: min(10px, 50px, 20px, 60px, 2px);
+    padding: random();
+    padding: random(10);
+    padding: unit(10rem);
+    padding: unit(10px);
+    padding: unitless(20);
+    padding: unitless(20px);
+
+    // INFO: String Functions
+    font-family: quote(roboto);
+    font-family: unquote("roboto");
+    font-family: to-upper-case("hwllo");
+    font-family: to-lower-case("HWLLO");
+    font-family: str-length("hello world");
+    font-family: str-index("hello world", "world");
+    font-family: str-insert("hello", "x", 4);
+    font-family: unique-id();
+
+    // INFO: Color Functions
+    $initial-color: blue;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    background: darken($initial-color, 400);
+    background: lighten($initial-color, 400);
+    background: adjust-hue($initial-color, 400);
+    background: saturate($initial-color, 50);
+    background: mix($initial-color, green, 50);
+}
+
+
+// INFO: Lists
+$list: 20px 10px 30px;
+
+.selector {
+    padding: length($list);
+    padding: nth($list, 2);
+    padding: set-nth($list, 3, 2em);
+    padding: join((10px, 20px, 30px), (40px 50px, 60px));
+    padding: join((10px, 20px, 30px), (40px 50px, 60px), space);
+    padding: append($list, 60px);
+}
+
+
+// INFO: Maps
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700,
+    "bolder", 900
+);
+
+.selector {
+    font-weight: map-get($font-weights, "medium");
+    font-weight: map-get($font-weight, "bolder");
+    font-weight: map-keys($font-weights);
+    font-weight: map-values($font-weights);
+    font-weight: map-has-key($font-weights, "bold");
+    font-weight: map-has-key($font-weights, "boldish");
+}
+
+
+// INFO: Custom Functions in Sass
+$one: 100px;
+$two: 100px;
+
+@function add($numberOne, $numberTwo) {
+    @return $numberOne + $numberTwo;
+}
+
+section {
+    width: add(10, 40);
+}
+
+@function randomColor() {
+    @return rgb(random(255), random(255), random(255))
+}
+
+.section {
+    width: 100px;
+    height: 100px;
+    background: randomColor();
+}

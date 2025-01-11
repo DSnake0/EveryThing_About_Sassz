@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    background: #fff;
+
+    .logo-container {
+        margin-left: 40px;
+    }
+
+    ul {
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        li {
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}

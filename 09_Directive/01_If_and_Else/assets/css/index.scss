@@ -1,0 +1,17 @@
+// INFO: Conditional Statements
+$value: 5;
+
+p {
+    @if $value ==1 {
+        font-size: 20px;
+        color: teal;
+    }
+
+    @else if $value >5 and $value < 10 {
+        color: blue;
+    }
+
+    @else {
+        color: red;
+    }
+}

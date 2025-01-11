@@ -1,0 +1,8 @@
+@for $index from 2 through 5 {
+    .box-#{$index} {
+        width: 100px * $index;
+        background: rgb(random(255), random(255), random(255));
+        margin: $index;
+        padding: 5px * $index;
+    }
+}

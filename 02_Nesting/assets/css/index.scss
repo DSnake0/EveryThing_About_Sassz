@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: url(../images/img1.avif) no-repeat center / cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    ul {
+        font-family: 'Courier New', Courier, monospace;
+        margin-right: 1.5rem;
+        display: flex;
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: white;
+                margin: 20px;
+                text-decoration: none;
+                padding-bottom: 5px;
+                text-decoration: none;
+                transition: all 0.5s ease;
+                display: inline-block;
+
+                &:hover {
+                    color: rebeccapurple;
+                    transform: translateY(-10px);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.basicbtn {
+    padding: 12px 20px;
+    border: 2px solid white;
+    background: darkorange;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn-1 {
+    @extend .basicbtn;
+    background: teal;
+}
+
+.btn-2 {
+    @extend .basicbtn;
+}

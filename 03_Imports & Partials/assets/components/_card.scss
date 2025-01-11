@@ -1,0 +1,73 @@
+
+
+
+
+main {
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdIfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1158&q=80) no-repeat center / cover;
+    padding: 300px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    p {
+        max-width: 600px;
+        color: white;
+        margin-bottom: 60px;
+    }
+
+    button {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 12px 20px;
+        background: white;
+        border: none;
+        border-radius: 20px;
+        font-weight: bolder;
+        color: rgb(7, 217, 7);
+    }
+}
+
+.card {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 0 6rem;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        margin: 20px 0;
+        margin-bottom: 40px;
+        line-height: 1.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        background: #000;
+        padding: 10px 20px;
+    }
+}
+
+.card-img {
+    width: 400px;
+}

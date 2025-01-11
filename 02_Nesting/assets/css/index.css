@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url(../images/img1.avif) no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container ul {
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 1.5rem;
+  display: flex;
+}
+.container ul li {
+  list-style-type: none;
+}
+.container ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  display: inline-block;
+}
+.container ul li a:hover {
+  color: rebeccapurple;
+  transform: translateY(-10px);
+}/*# sourceMappingURL=index.css.map */

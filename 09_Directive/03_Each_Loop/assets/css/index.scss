@@ -1,0 +1,7 @@
+$list: (normal, bold, italic);
+
+@each $index in $list {
+    .selector {
+        font-weight: $index;
+    }
+}

@@ -1,0 +1,11 @@
+.basicbtn, .btn-2, .btn-1 {
+  padding: 12px 20px;
+  border: 2px solid white;
+  background: darkorange;
+  color: white;
+  font-weight: bolder;
+}
+
+.btn-1 {
+  background: teal;
+}/*# sourceMappingURL=index.css.map */
