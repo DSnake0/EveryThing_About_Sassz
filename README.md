@@ -63,7 +63,7 @@ Clone this repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/DSnake0/EveryThing_About_Sassz.git
+git clone https://github.com/ExploitEngineer/EveryThing_About_Sassz.git
 cd EveryThing_About_Sassz
 Create a .scss file to write your SASS code.
 
